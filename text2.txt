@@ -146,7 +146,6 @@ namespace Elgamal.Classes
         {
             long temp = g;
             long G = g;
-            g = G;
             string fstring = Convert.ToString(f, 2);
             for (int i = 1; i < fstring.Length; i++)
             {
