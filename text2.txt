@@ -114,7 +114,7 @@ namespace Elgamal.Classes
                 }
                 i++;
             }
-            return false;
+            return true;
         }
         private void Primitive(long p)
         {
