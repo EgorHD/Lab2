@@ -155,7 +155,7 @@ namespace Elgamal.Classes
                 }
                 else
                 {
-                    temp = (temp * temp * G) % p;
+                    temp = (temp * G) % p;
                 }
             }
             return temp;
